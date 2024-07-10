@@ -3003,13 +3003,13 @@ files = [
 
 [[package]]
 name = "netutils"
-version = "1.8.1"
+version = "1.9.0"
 description = "Common helper functions useful in network automation."
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "netutils-1.8.1-py3-none-any.whl", hash = "sha256:b1d6864a7512c3def0e12a2a879f12ccca9b5077d482f591c56d0171542aa040"},
-    {file = "netutils-1.8.1.tar.gz", hash = "sha256:20d0cd9bf3a11588e77266c4aca93b460c732e12c4449e48213f22ab32d78921"},
+    {file = "netutils-1.9.0-py3-none-any.whl", hash = "sha256:5dad8d882c1c50e013466f60a281ca10c6f93f48e18927919aaa6019b5c22d66"},
+    {file = "netutils-1.9.0.tar.gz", hash = "sha256:ce8ccb1c08599b4ca803948dcc849a5110b8d5fa040247591bf119fb1ce434ce"},
 ]
 
 [package.extras]
@@ -5031,4 +5031,4 @@ servicenow = ["Jinja2", "PyYAML", "ijson", "oauthlib", "python-magic", "pytz", "
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "5884295ab2d07b3a203d6be7757cf76b9f4b3ac3a9d9ef57a6a1d9b3b1fa6c43"
+content-hash = "237ec98926643fd4d8d867e351fd401127ee46214076130b3bbf5bcea001a294"
