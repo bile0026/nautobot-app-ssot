@@ -1,5 +1,6 @@
 """App declaration for nautobot_ssot."""
 
+import logging
 import os
 from importlib import metadata
 
@@ -8,8 +9,8 @@ from nautobot.extras.plugins import NautobotAppConfig
 from nautobot.core.settings_funcs import is_truthy
 
 from nautobot_ssot.integrations.utils import each_enabled_integration_module
-from nautobot_ssot.utils import logger
 
+logger = logging.getLogger("nautobot.ssot")
 __version__ = metadata.version(__name__)
 
 
